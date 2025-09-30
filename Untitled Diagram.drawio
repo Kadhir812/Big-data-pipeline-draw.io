@@ -286,35 +286,41 @@
         <mxCell id="shMWmJRWXa6_KgT6ADy9-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;Read Kafka Stream&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1270" y="550" width="295" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="shMWmJRWXa6_KgT6ADy9-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-46" target="shMWmJRWXa6_KgT6ADy9-47" edge="1">
+        <mxCell id="shMWmJRWXa6_KgT6ADy9-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-46" target="shMWmJRWXa6_KgT6ADy9-46-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Extract &amp;amp; Parse JSON Messages&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1270" y="630" width="295" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="shMWmJRWXa6_KgT6ADy9-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-46-1" target="shMWmJRWXa6_KgT6ADy9-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="shMWmJRWXa6_KgT6ADy9-46-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Sentiment-Based Impact Assessment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="710" width="295" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-47" target="shMWmJRWXa6_KgT6ADy9-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Risk Scoring &amp;amp; Enrichment Logic&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="710" width="295" height="40" as="geometry" />
+          <mxGeometry x="1270" y="790" width="295" height="40" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-48" target="shMWmJRWXa6_KgT6ADy9-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-48" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Write to Elasticsearch&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="790" width="295" height="40" as="geometry" />
+          <mxGeometry x="1270" y="870" width="295" height="40" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-49" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Checkpointing and Faut Tolerance&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="870" width="295" height="40" as="geometry" />
+          <mxGeometry x="1270" y="950" width="295" height="40" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="shMWmJRWXa6_KgT6ADy9-42" target="shMWmJRWXa6_KgT6ADy9-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-59" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="270" width="480" height="720" as="geometry" />
+          <mxGeometry x="1180" y="270" width="480" height="800" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-60" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="450" width="400" height="500" as="geometry" />
+          <mxGeometry x="1220" y="450" width="400" height="580" as="geometry" />
         </mxCell>
         <mxCell id="shMWmJRWXa6_KgT6ADy9-61" value="" style="swimlane;startSize=0;" parent="shMWmJRWXa6_KgT6ADy9-60" vertex="1">
           <mxGeometry x="20" y="80" width="350" height="80" as="geometry" />
